@@ -1,0 +1,71 @@
+# Vi or Vim
+
+Vi is a command line text editor that is accessible on the linux terminal.
+
+## Resources
+
+- [Basic vi Commands](https://www.cs.colostate.edu/helpdocs/vi.html)
+
+## Learning Objectives
+
+- What is vi
+- Who is Bill Joy
+- How to start and exit vi
+- What are the command and insert modes, and how to switch from one to the other
+- How to edit text
+- How to cut and paste lines
+- How to search forward and backward
+- How to undo
+- How to quit vi
+
+## Tasks
+
+### Task 0
+
+Navigate to /root and create a directory named `0x03_vi`
+
+### Task 1
+
+What is the command to insert text before the cursor?
+Write the answer into the file `/root/0x03_vi/inserting`.
+
+You can validate if the format of your answer is correct by displaying the file information:
+
+```
+root@hex:~# ls -l /root/0x03_vi/inserting
+-rw-r--r-- 1 root root 2 Nov 11 04:34 /root/0x03_vi/inserting
+root@hex:~#
+```
+
+### Task 2
+
+What is the command to delete and cut the current line?
+Write the answer into the file `/root/0x03_vi/cutting`.
+
+> Tips:
+> - [How to Copy, Cut and Paste](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)
+
+### Task 3
+
+What is the command to paste the lines in the buffer into the text after the current line?
+Write the answer into the file `/root/0x03_vi/pasting`.
+
+### Task 4
+
+What is the command to undo what you just did?
+Write the answer into the file `/root/0x03_vi/undoing`.
+
+### Task 5
+
+What is the command to quit vi even though latest changes have not been saved for this vi call?
+Write the answer into the file `/root/0x03_vi/exiting`.
+
+### Task 6
+
+What is the command to move the cursor to the start of the current line?
+Write the answer into the file `/root/0x03_vi/beginning_of_the_line`.
+
+### Task 7
+
+What is the command to move the cursor to the end of the line?  
+Write the answer into the file `/root/0x03_vi/end_of_the_line`.
